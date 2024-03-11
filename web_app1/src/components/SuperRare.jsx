@@ -46,8 +46,7 @@ function SuperRare() {
         <h2 className="title">LE Super Rare Auction</h2>
         <p className="description">
           We have released four limited edition NFT's early which can be bid on
-          via
-          <a href="#">OpenSea.</a>
+          via <a href="#">OpenSea.</a>
         </p>
       </div>
       <div className="cards">

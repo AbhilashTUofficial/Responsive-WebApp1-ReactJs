@@ -5,6 +5,7 @@ import Home from './components/Home'
 import Free from './components/Free'
 import Clients from './components/Clients'
 import SuperRare from './components/SuperRare'
+import Releases from './components/Releases'
 
 const App = () => {
   return (
@@ -14,6 +15,8 @@ const App = () => {
       <Free/>
       <Clients/>
       <SuperRare/>
+      <Releases/>
+      
     </div>
   )
 }
