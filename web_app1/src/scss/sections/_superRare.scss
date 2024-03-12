@@ -19,14 +19,39 @@
     }
   }
   .cards {
-    overflow-x: auto;
+    // overflow-x: auto;
     white-space: nowrap;
     width: 100%;
     display: inline-flex;
     flex-direction: row;
     justify-content: space-evenly;
     padding-top: 2rem;
-    padding-bottom: 2rem;
     gap: 5rem;
+  }
+  @media screen and (min-width:280px) and (max-width:1080px){
+  padding: 1rem 2rem;
+  width: 100vw;
+  .cards{
+    overflow: auto;
+    justify-content: flex-start;
+    gap:2rem;
+    padding-left:1.5rem ;
+    &::-webkit-scrollbar{
+      display: none;
+    }
+    .card{
+      zoom: 0.7;
+    }
+    
+  }
+  .title-container {
+    .title {
+      font-size: 22PX;
+    }
+    .description {
+      font-size: 16px;
+      
+    }
+  }
   }
 }
