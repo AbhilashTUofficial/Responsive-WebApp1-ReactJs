@@ -1,0 +1,44 @@
+.navContainer{
+    background-color: white;
+    display: flex;
+    padding: 1.6rem;
+    margin: 1rem;
+    border-radius: 16px;
+    z-index: 99;
+    opacity: 0.9;
+    justify-content: center;
+    /* Horizontal offset, vertical offset, blur radius, color */
+    box-shadow: 2px 2px 10px darkgrey; 
+    .navItems{
+        display: flex;
+        flex: 1;
+        align-items: center;
+        justify-content: space-between;
+        .portfolio{
+            color: var(--accent-color1);
+            font-weight: bold;
+            font-size: 1.6rem;
+        }
+        .links{
+            display: flex;
+            .link{
+                list-style-type: none;
+                margin:0 1rem;
+                padding: 0.4rem 1rem;
+                border-radius: 6px;
+                border: 1px solid transparent;
+                transition: 0.4s ease-in;
+                &:hover{
+                    border: 1px solid var(--accent-color1);
+                }
+                a{
+                    text-decoration: none;
+                    font-weight: bold;
+                    color: var(--primary-color);
+                }
+            }
+        }
+    }
+
+
+}

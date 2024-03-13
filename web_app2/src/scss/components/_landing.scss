@@ -1,0 +1,67 @@
+.landingContainer {
+  margin-top: 10rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  padding: 3rem;
+  display: flex;
+  .hero {
+    .introduction {
+      color: white;
+      font-size: 1.6rem;
+      margin: 1rem 0;
+    }
+    .service {
+      color: red;
+      font-size: 2rem;
+      letter-spacing: 2px;
+      font-weight: bold;
+      background-image: linear-gradient(
+        to right,
+        var(--accent-color1),
+        var(--accent-color2),
+        var(--accent-color1)
+      );
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+    .selfInfo{
+        color: white;
+        margin: 1rem 0;
+        opacity: 0.8;
+        width: 40rem;
+    }
+    .contactTags{
+        display: flex;
+        margin: 16px 0px;
+        .contactTag{
+            display: flex;
+            margin: 0.6rem;
+            padding: 0.4rem;
+            background-color: var(--secondary-color);
+            justify-content: center;
+            align-items: center;
+            border-radius: 99px;
+            width: 46px;
+            height: 46px;
+            transition: 0.5s ease-in-out;
+            &:hover{
+                background-color: whitesmoke;
+            }
+            img{
+                width: 28px;
+                height: 28px;
+                &:hover{
+                    width: 32px;
+                height: 32px;
+                }
+            }
+        }
+    }
+    
+  }
+  //only in full screen mode
+  .heroImg {
+
+  }
+}
