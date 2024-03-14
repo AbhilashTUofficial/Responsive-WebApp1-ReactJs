@@ -8,11 +8,11 @@ import About from "./components/About.tsx";
 const App = () => {
   return (
     <div className="app-container">
+
+      <LayoutWrapper>
       <NavBar />
       <Landing />
       <About />
-      <LayoutWrapper>
-
       </LayoutWrapper>
     </div>
   );
