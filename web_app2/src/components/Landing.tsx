@@ -9,8 +9,11 @@ function Landing() {
     <div className="landingContainer">
       <div className="hero">
         <div className="introduction">I'm Abhilash T.U</div>
-        <div className="service s1">React Native Developer</div>
-        <div className="service s2">React JS Developer</div>
+        <div className="service">
+
+        <div className="s1">React Native Developer</div>
+        <div className="s2">React JS Developer</div>
+        </div>
         <div className="selfInfo">Hi there ✋,
           As a budding developer, I'm driven by a passion for programming, eager to explore and learn new technologies, and dedicated to continuous growth in my career.
         </div>

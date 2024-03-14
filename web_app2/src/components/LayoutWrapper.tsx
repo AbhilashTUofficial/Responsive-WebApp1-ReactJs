@@ -27,7 +27,7 @@ function LayoutWrapper({ children }) {
         for (let j = 0; j < screenWidth / 20; j++) {
             columns.push(<div key={`${j}`} className="grid-item" />);
         }
-        for (let i = 0; i < 50; i++) {
+        for (let i = 0; i < 130; i++) {
             rows.push(
                 <div className='rows'>
                     {columns}
@@ -77,7 +77,6 @@ function LayoutWrapper({ children }) {
 
     return (
         <div className='wrapper'>
-            <img src={grans} alt="" />
             <div className="blob1" ref={blob1Ref} />
             <div className="blob2" ref={blob2Ref} />
             <div className="background">

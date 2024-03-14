@@ -1,7 +1,8 @@
 .landingContainer {
-  margin-top: 10rem;
+  margin-top: 15rem;
   margin-right: 1rem;
   margin-left: 1rem;
+  margin-bottom: 5rem;
   padding: 1rem;
   display: flex;
   opacity: 1;
@@ -9,36 +10,40 @@
     .introduction {
       color: white;
       font-size: 1.6rem;
-      margin: 1rem 0;
+      margin: 2rem 0;
+    }
+    .service{
+      padding: 0 0 1rem 0;
+      div {
+        font-size: 2rem;
+        letter-spacing: 2px;
+        font-weight: bold;
+        z-index:98;
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+      }
+      .s1{
+        background-image: linear-gradient(
+          to right,
+          var(--accent-color1),
+          var(--accent-color2),
+          var(--accent-color1)
+        );
+      }
+  
+      .s2{
+        background-image: linear-gradient(
+          to right,
+          var(--accent-color2),
+          var(--accent-color1),
+          var(--accent-color2)
+        );
+      }
+  
     }
 
-    .service {
-      font-size: 2rem;
-      letter-spacing: 2px;
-      font-weight: bold;
-      z-index:98;
-      -webkit-background-clip: text;
-      background-clip: text;
-      color: transparent;
-    }
-    .s1{
-      background-image: linear-gradient(
-        to right,
-        var(--accent-color1),
-        var(--accent-color2),
-        var(--accent-color1)
-      );
-    }
-
-    .s2{
-      background-image: linear-gradient(
-        to right,
-        var(--accent-color2),
-        var(--accent-color1),
-        var(--accent-color2)
-      );
-    }
-
+  
     .selfInfo{
         color: white;
         margin: 1rem 0;
@@ -48,6 +53,7 @@
 
     }
     .contactTags{
+      position: relative;
         display: flex;
         margin: 16px 0px;
         .contactTag{
@@ -60,7 +66,7 @@
             border-radius: 99px;
             width: 46px;
             height: 46px;
-            z-index:98;
+            z-index:96;
             transition: 0.5s ease-in-out;
             &:hover{
                 background-color: whitesmoke;

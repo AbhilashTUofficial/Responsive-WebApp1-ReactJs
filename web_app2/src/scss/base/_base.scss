@@ -32,8 +32,8 @@
   .app-container{
     background-color: var(--primary-color);
     font-family:var(--font-family);
-    height: 100vh;
-    overflow-x: hidden;
+    height: 300vh;
+    // overflow-x: hidden;
     transition: 0.5s ease-in-out;
     padding: 2rem 4rem;
     @media screen and (min-width:280px) and (max-width:1080px){
